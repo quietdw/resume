@@ -53,11 +53,11 @@ module.exports = {
     }),
     new OptimizeCSSAssetsPlugin(),
     new EndWebpackPlugin(async () => {
-      // 自定义域名
-      // fs.writeFileSync(
-      //   path.resolve(outputPath, "CNAME"),
-      //   "resume.jiangnana.cn"
-      // );
+      //  自定义域名;
+      fs.writeFileSync(
+        path.resolve(outputPath, "CNAME"),
+        "resume.jiangnana.cn"
+      );
 
       // 调用 Chrome 渲染出 PDF 文件
       const chromePath = findChrome();
