@@ -5,6 +5,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^9.8.0",
+    "base64-inline-loader": "^1.1.1",
     "chrome-finder": "^1.0.7",
     "compass-mixins": "^0.12.10",
     "css-loader": "^3.5.3",
